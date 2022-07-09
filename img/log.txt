@@ -1,0 +1,611 @@
+Processing /tmp/medbgmail2_59637826.txt
+Part list:
+  9.Y6955.50.0|0|9.Y6955.50.0/0|IMAN_specification|UGMASTER
+  9.Y8155.51.0|0|9.Y8155.51.0/0|IMAN_specification|UGMASTER
+  9.Y6955.51.0|0|9.Y6955.51.0/0|IMAN_specification|UGMASTER
+  9.FN555.43.0|0|9.FN555.43.0/0|IMAN_specification|UGMASTER
+  9.Y7155.50.0|0|9.Y7155.50.0/0|IMAN_specification|UGMASTER
+  9.Y8355.51.0|0|9.Y8355.51.0/0|IMAN_specification|UGMASTER
+  9.FN555.23.0|0|9.FN555.23.0/0|IMAN_specification|UGMASTER
+Connecting server (dfsprdit.samedeutz-fahr.com:5556) ....
+SND: CFG command export_list
+SND: CFG user "daemon"
+SND: CFG host "SGCAD12"
+SND: CFG interface "SCHED"
+SND: CFG to "repository"
+SND: CFG iman_user "catalog"
+SND: CFG group ""
+SND: CFG drawings "1"
+SND: CFG fallback "off"
+SND: LIST 0 9.Y6955.50.0 0 9.Y6955.50.0/0 IMAN_specification UGMASTER
+SND: LIST 2 9.Y8155.51.0 0 9.Y8155.51.0/0 IMAN_specification UGMASTER
+SND: LIST 4 9.Y6955.51.0 0 9.Y6955.51.0/0 IMAN_specification UGMASTER
+SND: LIST 6 9.FN555.43.0 0 9.FN555.43.0/0 IMAN_specification UGMASTER
+SND: LIST 1 9.Y7155.50.0 0 9.Y7155.50.0/0 IMAN_specification UGMASTER
+SND: LIST 3 9.Y8355.51.0 0 9.Y8355.51.0/0 IMAN_specification UGMASTER
+SND: LIST 5 9.FN555.23.0 0 9.FN555.23.0/0 IMAN_specification UGMASTER
+SND: END
+REC: MSG pid started: 63570108
+REC: MSG Starting export STEP 1 - receiving first information set
+REC: MSG Reading client lines
+REC: MSG Export type: SCHED
+REC: MSG Starting export STEP 2 - Configuring conversions programs
+REC: CFG conv: step203 prt stp
+REC: CFG conv: iges prt igs
+REC: CFG conv: tif d tif
+REC: CFG conv: tif tif tif
+REC: CFG conv: d d d
+REC: CFG conv: vda prt vda
+REC: CFG conv: prt prt prt
+REC: CFG conv: vda vda vda
+REC: CFG conv: dxf d dxf
+REC: CFG conv: dxf prt dxf
+REC: CFG conv: step214 prt stp
+REC: REDRAW
+REC: MSG Starting export STEP 3 - Configuring export to list
+REC: CFG dest: repository /data/medrepository/ {} File
+REC: CFG dest: cataloghi //FTP/internal/catalog {} FTP
+REC: CFG dest: tecnico //FTP/internal/tecnico {} FTP
+REC: CFG dest: Polska-biurop //FTP/internal/biurop biurop@sdfgroup.pl FTP
+REC: CFG dest: sat //FTP/internal/sat {} FTP
+REC: CFG dest: Deutz //FTP/internal/deutz winfred.koch@samedeutz-fahr.de FTP
+REC: CFG dest: salvioni //FTP/external/salvioni {} FTP
+REC: MSG Starting export STEP 4 - export from iMAN
+REC: MSG getting file list for 9.Y6955.50.0/0 ....
+REC: MSG Starting export STEP 4 - export from iMAN
+REC: MSG getting file list for 9.Y7155.50.0/0 ....
+REC: MSG Starting export STEP 4 - export from iMAN
+REC: MSG getting file list for 9.Y8155.51.0/0 ....
+REC: MSG Starting export STEP 4 - export from iMAN
+REC: MSG getting file list for 9.Y8355.51.0/0 ....
+REC: MSG Starting export STEP 4 - export from iMAN
+REC: MSG getting file list for 9.Y6955.51.0/0 ....
+REC: MSG Starting export STEP 4 - export from iMAN
+REC: MSG getting file list for 9.FN555.23.0/0 ....
+REC: MSG Starting export STEP 4 - export from iMAN
+REC: MSG getting file list for 9.FN555.43.0/0 ....
+REC: MSG Starting export STEP 5 - Sending file list and mixed information
+REC: LCFG 0 master_file:9.y6955.50.0_0.prt
+REC: LCFG 0 master:yes
+REC: LFILE 0 0.016.8813.0_0.prt
+REC: LFILE 0 0.016.8816.0_0.prt
+REC: LFILE 0 0.018.9967.0_0.prt
+REC: LFILE 0 0.018.9967.3_0.prt
+REC: LFILE 0 0.018.9967.4_0.prt
+REC: LFILE 0 0.019.1031.0_0.prt
+REC: LFILE 0 2.0099.005.6_0.prt
+REC: LFILE 0 2.1019.175.6_0.prt
+REC: LFILE 0 2.1499.019.6_0.prt
+REC: LFILE 0 2.4811.071.0_0.prt
+REC: LFILE 0 2.4851.170.0_0.prt
+REC: LFILE 0 9.y6955.50.0_0.prt
+REC: LCFG 1 master_file:9.y7155.50.0_0.prt
+REC: LCFG 1 master:yes
+REC: LFILE 1 0.016.8813.0_0.prt
+REC: LFILE 1 0.016.8816.0_0.prt
+REC: LFILE 1 0.018.9967.0_1.prt
+REC: LFILE 1 0.018.9967.3_1.prt
+REC: LFILE 1 0.018.9967.4_10_0.prt
+REC: LFILE 1 0.018.9967.4h_0.prt
+REC: LFILE 1 0.019.1031.0_0.prt
+REC: LFILE 1 2.0099.005.6_0.prt
+REC: LFILE 1 2.1019.175.6_0.prt
+REC: LFILE 1 2.1499.019.6_0.prt
+REC: LFILE 1 2.4811.071.0_0.prt
+REC: LFILE 1 2.4851.170.0_0.prt
+REC: LFILE 1 9.y7155.50.0_0.prt
+REC: LCFG 2 master_file:9.y8155.51.0_0.prt
+REC: LCFG 2 master:yes
+REC: LFILE 2 0.018.9969.3_0.prt
+REC: LFILE 2 0.019.1031.0_0.prt
+REC: LFILE 2 0.019.4000.0_0.prt
+REC: LFILE 2 2.4811.058.0_0.prt
+REC: LFILE 2 2.4851.118.0_0.prt
+REC: LFILE 2 9.y8155.51.0_0.prt
+REC: LCFG 3 master_file:9.y8355.51.0_0.prt
+REC: LCFG 3 master:yes
+REC: LFILE 3 0.018.9969.3_20_0.prt
+REC: LFILE 3 0.018.9969.3h_0.prt
+REC: LFILE 3 0.019.1031.0_0.prt
+REC: LFILE 3 0.019.4000.0_10_0.prt
+REC: LFILE 3 2.4811.058.0_0.prt
+REC: LFILE 3 2.4851.118.0_0.prt
+REC: LFILE 3 9.y8355.51.0_0.prt
+REC: LCFG 4 master_file:9.y6955.51.0_0.prt
+REC: LCFG 4 master:yes
+REC: LFILE 4 0.016.8813.0_0.prt
+REC: LFILE 4 0.016.8816.0_0.prt
+REC: LFILE 4 0.018.9967.0_0.prt
+REC: LFILE 4 0.018.9967.3_0.prt
+REC: LFILE 4 0.018.9967.4_0.prt
+REC: LFILE 4 0.019.1031.0_0.prt
+REC: LFILE 4 2.0099.005.6_0.prt
+REC: LFILE 4 2.1019.175.6_0.prt
+REC: LFILE 4 2.1499.019.6_0.prt
+REC: LFILE 4 2.4811.058.0_0.prt
+REC: LFILE 4 2.4851.170.0_0.prt
+REC: LFILE 4 9.y6955.51.0_0.prt
+REC: LCFG 5 master_file:9.fn555.23.0_0.prt
+REC: LCFG 5 master:yes
+REC: LFILE 5 0.016.5360.0_0.prt
+REC: LFILE 5 0.016.8812.0_0.prt
+REC: LFILE 5 0.016.8816.0_0.prt
+REC: LFILE 5 0.019.0520.0_0.prt
+REC: LFILE 5 0.033.4778.3_0.prt
+REC: LFILE 5 0.033.4778.4_0.prt
+REC: LFILE 5 2.0099.005.6_0.prt
+REC: LFILE 5 2.1019.059.6_0.prt
+REC: LFILE 5 2.1483.008.6_1.prt
+REC: LFILE 5 2.4811.156.0_0.prt
+REC: LFILE 5 2.4851.150.0_0.prt
+REC: LFILE 5 9.fn555.23.0_0.prt
+REC: LCFG 6 master_file:9.fn555.43.0_0.prt
+REC: LCFG 6 master:yes
+REC: LFILE 6 0.016.8813.0_0.prt
+REC: LFILE 6 0.016.8816.0_0.prt
+REC: LFILE 6 0.019.0520.0_0.prt
+REC: LFILE 6 0.024.3910.0_1.prt
+REC: LFILE 6 0.024.3912.3_1.prt
+REC: LFILE 6 0.024.3912.4_1.prt
+REC: LFILE 6 2.0099.005.6_0.prt
+REC: LFILE 6 2.1019.059.6_0.prt
+REC: LFILE 6 2.1483.008.6_1.prt
+REC: LFILE 6 2.4811.189.0_0.prt
+REC: LFILE 6 2.4851.130.0_0.prt
+REC: LFILE 6 9.fn555.43.0_0.prt
+REC: CFG zip:daemon_050422_153150.zip
+REC: CFG directory:/data/medrepository/
+REC: CFG labelfile:File
+SND: CFG email viktor.frroku@gestioneclienti.net
+SND: CFG zipname sdfg-050422-153151.zip
+SND: CFG send repository
+SND: CFG comp zip
+SND: CFG master yes
+ ** checking drawings
+ ** checking 35 
+ ** checking 36 
+ ** checking 37 
+ ** checking 38 
+ ** checking 39 
+ ** checking 40 
+ ** checking 41 
+ ** checking 42 
+ ** checking 43 
+ ** checking 44 
+ ** checking 45 
+ ** checking 46 
+ ** checking 47 
+ ** checking 48 
+ ** checking 50 
+ ** checking 49 
+ ** checking 51 
+ ** checking 52 
+ ** checking 53 
+ ** checking 54 
+ ** checking 55 
+ ** checking 56 
+ ** checking 57 
+ ** checking 58 
+ ** checking 60 
+ ** checking 59 
+ ** checking 61 
+ ** checking 62 
+ ** checking 63 
+ ** checking 64 
+ ** checking 65 
+ ** checking 66 
+ ** checking 67 
+ ** checking 68 
+ ** checking 70 
+ ** checking 69 
+ ** checking 71 
+ ** checking 72 
+ ** checking 73 
+ ** checking 10 
+ ** checking 11 
+SND: LFILE 0 9.y6955.50.0_0.prt {prt 1}
+ ** checking drawings
+ ** checking 35 
+ ** checking 36 
+ ** checking 37 
+ ** checking 38 
+ ** checking 39 
+ ** checking 40 
+ ** checking 41 
+ ** checking 42 
+ ** checking 43 
+ ** checking 44 
+ ** checking 45 
+ ** checking 46 
+ ** checking 47 
+ ** checking 48 
+ ** checking 50 
+ ** checking 49 
+ ** checking 51 
+ ** checking 52 
+ ** checking 53 
+ ** checking 54 
+ ** checking 55 
+ ** checking 56 
+ ** checking 57 
+ ** checking 58 
+ ** checking 60 
+ ** checking 59 
+ ** checking 61 
+ ** checking 62 
+ ** checking 63 
+ ** checking 64 
+ ** checking 65 
+ ** checking 66 
+ ** checking 67 
+ ** checking 68 
+ ** checking 70 
+ ** checking 69 
+ ** checking 71 
+ ** checking 72 
+ ** checking 73 
+ ** checking 10 
+ ** checking 11 
+ ** checking 12 
+ ** checking 13 
+ ** checking 14 
+ ** checking 15 
+ ** checking 16 
+ ** checking 0 
+ ** checking 17 
+ ** checking 1 
+ ** checking 18 
+ ** checking 2 
+ ** checking 19 
+ ** checking 20 
+ ** checking 3 
+ ** checking 21 
+ ** checking 4 
+ ** checking 22 
+ ** checking 5 
+ ** checking 23 
+ ** checking 6 
+ ** checking 24 
+ ** checking 7 
+ ** checking 25 
+ ** checking 8 
+ ** checking 26 
+ ** checking 9 
+ ** checking 27 
+ ** checking 28 
+ ** checking 29 
+ ** checking 30 
+SND: LFILE 2 9.y8155.51.0_0.prt {prt 1}
+ ** checking drawings
+ ** checking 35 
+ ** checking 36 
+ ** checking 37 
+ ** checking 38 
+ ** checking 39 
+ ** checking 40 
+ ** checking 41 
+ ** checking 42 
+ ** checking 43 
+ ** checking 44 
+ ** checking 45 
+ ** checking 46 
+ ** checking 47 
+ ** checking 48 
+ ** checking 50 
+ ** checking 49 
+SND: LFILE 4 9.y6955.51.0_0.prt {prt 1}
+ ** checking drawings
+ ** checking 35 
+ ** checking 36 
+ ** checking 37 
+ ** checking 38 
+ ** checking 39 
+ ** checking 40 
+ ** checking 41 
+ ** checking 42 
+ ** checking 43 
+ ** checking 44 
+ ** checking 45 
+ ** checking 46 
+ ** checking 47 
+ ** checking 48 
+ ** checking 50 
+ ** checking 49 
+ ** checking 51 
+ ** checking 52 
+ ** checking 53 
+ ** checking 54 
+ ** checking 55 
+ ** checking 56 
+ ** checking 57 
+ ** checking 58 
+ ** checking 60 
+ ** checking 59 
+ ** checking 61 
+ ** checking 62 
+ ** checking 63 
+ ** checking 64 
+ ** checking 65 
+ ** checking 66 
+ ** checking 67 
+ ** checking 68 
+ ** checking 70 
+ ** checking 69 
+ ** checking 71 
+ ** checking 72 
+ ** checking 73 
+SND: LFILE 6 9.fn555.43.0_0.prt {prt 1}
+ ** checking drawings
+ ** checking 35 
+ ** checking 36 
+ ** checking 37 
+ ** checking 38 
+ ** checking 39 
+ ** checking 40 
+ ** checking 41 
+ ** checking 42 
+ ** checking 43 
+ ** checking 44 
+ ** checking 45 
+ ** checking 46 
+ ** checking 47 
+ ** checking 48 
+ ** checking 50 
+ ** checking 49 
+ ** checking 51 
+ ** checking 52 
+ ** checking 53 
+ ** checking 54 
+ ** checking 55 
+ ** checking 56 
+ ** checking 57 
+ ** checking 58 
+ ** checking 60 
+ ** checking 59 
+ ** checking 61 
+ ** checking 62 
+ ** checking 63 
+ ** checking 64 
+ ** checking 65 
+ ** checking 66 
+ ** checking 67 
+ ** checking 68 
+ ** checking 70 
+ ** checking 69 
+ ** checking 71 
+ ** checking 72 
+ ** checking 73 
+ ** checking 10 
+ ** checking 11 
+ ** checking 12 
+ ** checking 13 
+ ** checking 14 
+ ** checking 15 
+ ** checking 16 
+ ** checking 0 
+ ** checking 17 
+ ** checking 1 
+ ** checking 18 
+ ** checking 2 
+ ** checking 19 
+ ** checking 20 
+ ** checking 3 
+ ** checking 21 
+ ** checking 4 
+ ** checking 22 
+ ** checking 5 
+ ** checking 23 
+ ** checking 6 
+ ** checking 24 
+SND: LFILE 1 9.y7155.50.0_0.prt {prt 1}
+ ** checking drawings
+ ** checking 35 
+ ** checking 36 
+ ** checking 37 
+SND: LFILE 3 9.y8355.51.0_0.prt {prt 1}
+ ** checking drawings
+ ** checking 35 
+ ** checking 36 
+ ** checking 37 
+ ** checking 38 
+ ** checking 39 
+ ** checking 40 
+ ** checking 41 
+ ** checking 42 
+ ** checking 43 
+ ** checking 44 
+ ** checking 45 
+ ** checking 46 
+ ** checking 47 
+ ** checking 48 
+ ** checking 50 
+ ** checking 49 
+ ** checking 51 
+ ** checking 52 
+ ** checking 53 
+ ** checking 54 
+ ** checking 55 
+ ** checking 56 
+ ** checking 57 
+ ** checking 58 
+ ** checking 60 
+ ** checking 59 
+ ** checking 61 
+SND: LFILE 5 9.fn555.23.0_0.prt {prt 1}
+SND: END
+REC: MSG Starting export STEP 6 - receiving second information set
+REC: MSG Reading client lines
+REC: MSG Starting export ...
+REC: MSG Starting export STEP 7 - Conversion and zipping
+REC: MSG exporting files:
+REC: MSG * 9_Y6955_50_0/9.y6955.50.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/9.y6955.50.0_0.prt
+REC: MSG * 9_Y6955_50_0/0.016.8813.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/0.016.8813.0_0.prt
+REC: MSG * 9_Y6955_50_0/0.016.8816.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/0.016.8816.0_0.prt
+REC: MSG * 9_Y6955_50_0/0.018.9967.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/0.018.9967.0_0.prt
+REC: MSG * 9_Y6955_50_0/0.018.9967.3_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/0.018.9967.3_0.prt
+REC: MSG * 9_Y6955_50_0/0.018.9967.4_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/0.018.9967.4_0.prt
+REC: MSG * 9_Y6955_50_0/0.019.1031.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/0.019.1031.0_0.prt
+REC: MSG * 9_Y6955_50_0/2.0099.005.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/2.0099.005.6_0.prt
+REC: MSG * 9_Y6955_50_0/2.1019.175.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/2.1019.175.6_0.prt
+REC: MSG * 9_Y6955_50_0/2.1499.019.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/2.1499.019.6_0.prt
+REC: MSG * 9_Y6955_50_0/2.4811.071.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/2.4811.071.0_0.prt
+REC: MSG * 9_Y6955_50_0/2.4851.170.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_50_0/2.4851.170.0_0.prt
+REC: MSG * 9_Y7155_50_0/9.y7155.50.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/9.y7155.50.0_0.prt
+REC: MSG * 9_Y7155_50_0/0.016.8813.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/0.016.8813.0_0.prt
+REC: MSG * 9_Y7155_50_0/0.016.8816.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/0.016.8816.0_0.prt
+REC: MSG * 9_Y7155_50_0/0.018.9967.0_1.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/0.018.9967.0_1.prt
+REC: MSG * 9_Y7155_50_0/0.018.9967.3_1.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/0.018.9967.3_1.prt
+REC: MSG * 9_Y7155_50_0/0.018.9967.4_10_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/0.018.9967.4_10_0.prt
+REC: MSG * 9_Y7155_50_0/0.018.9967.4h_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/0.018.9967.4h_0.prt
+REC: MSG * 9_Y7155_50_0/0.019.1031.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/0.019.1031.0_0.prt
+REC: MSG * 9_Y7155_50_0/2.0099.005.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/2.0099.005.6_0.prt
+REC: MSG * 9_Y7155_50_0/2.1019.175.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/2.1019.175.6_0.prt
+REC: MSG * 9_Y7155_50_0/2.1499.019.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/2.1499.019.6_0.prt
+REC: MSG * 9_Y7155_50_0/2.4811.071.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/2.4811.071.0_0.prt
+REC: MSG * 9_Y7155_50_0/2.4851.170.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y7155_50_0/2.4851.170.0_0.prt
+REC: MSG * 9_Y8155_51_0/9.y8155.51.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8155_51_0/9.y8155.51.0_0.prt
+REC: MSG * 9_Y8155_51_0/0.018.9969.3_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8155_51_0/0.018.9969.3_0.prt
+REC: MSG * 9_Y8155_51_0/0.019.1031.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8155_51_0/0.019.1031.0_0.prt
+REC: MSG * 9_Y8155_51_0/0.019.4000.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8155_51_0/0.019.4000.0_0.prt
+REC: MSG * 9_Y8155_51_0/2.4811.058.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8155_51_0/2.4811.058.0_0.prt
+REC: MSG * 9_Y8155_51_0/2.4851.118.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8155_51_0/2.4851.118.0_0.prt
+REC: MSG * 9_Y8355_51_0/9.y8355.51.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8355_51_0/9.y8355.51.0_0.prt
+REC: MSG * 9_Y8355_51_0/0.018.9969.3_20_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8355_51_0/0.018.9969.3_20_0.prt
+REC: MSG * 9_Y8355_51_0/0.018.9969.3h_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8355_51_0/0.018.9969.3h_0.prt
+REC: MSG * 9_Y8355_51_0/0.019.1031.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8355_51_0/0.019.1031.0_0.prt
+REC: MSG * 9_Y8355_51_0/0.019.4000.0_10_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8355_51_0/0.019.4000.0_10_0.prt
+REC: MSG * 9_Y8355_51_0/2.4811.058.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8355_51_0/2.4811.058.0_0.prt
+REC: MSG * 9_Y8355_51_0/2.4851.118.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y8355_51_0/2.4851.118.0_0.prt
+REC: MSG * 9_Y6955_51_0/9.y6955.51.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/9.y6955.51.0_0.prt
+REC: MSG * 9_Y6955_51_0/0.016.8813.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/0.016.8813.0_0.prt
+REC: MSG * 9_Y6955_51_0/0.016.8816.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/0.016.8816.0_0.prt
+REC: MSG * 9_Y6955_51_0/0.018.9967.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/0.018.9967.0_0.prt
+REC: MSG * 9_Y6955_51_0/0.018.9967.3_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/0.018.9967.3_0.prt
+REC: MSG * 9_Y6955_51_0/0.018.9967.4_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/0.018.9967.4_0.prt
+REC: MSG * 9_Y6955_51_0/0.019.1031.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/0.019.1031.0_0.prt
+REC: MSG * 9_Y6955_51_0/2.0099.005.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/2.0099.005.6_0.prt
+REC: MSG * 9_Y6955_51_0/2.1019.175.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/2.1019.175.6_0.prt
+REC: MSG * 9_Y6955_51_0/2.1499.019.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/2.1499.019.6_0.prt
+REC: MSG * 9_Y6955_51_0/2.4811.058.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/2.4811.058.0_0.prt
+REC: MSG * 9_Y6955_51_0/2.4851.170.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_Y6955_51_0/2.4851.170.0_0.prt
+REC: MSG * 9_FN555_23_0/9.fn555.23.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/9.fn555.23.0_0.prt
+REC: MSG * 9_FN555_23_0/0.016.5360.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/0.016.5360.0_0.prt
+REC: MSG * 9_FN555_23_0/0.016.8812.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/0.016.8812.0_0.prt
+REC: MSG * 9_FN555_23_0/0.016.8816.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/0.016.8816.0_0.prt
+REC: MSG * 9_FN555_23_0/0.019.0520.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/0.019.0520.0_0.prt
+REC: MSG * 9_FN555_23_0/0.033.4778.3_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/0.033.4778.3_0.prt
+REC: MSG * 9_FN555_23_0/0.033.4778.4_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/0.033.4778.4_0.prt
+REC: MSG * 9_FN555_23_0/2.0099.005.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/2.0099.005.6_0.prt
+REC: MSG * 9_FN555_23_0/2.1019.059.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/2.1019.059.6_0.prt
+REC: MSG * 9_FN555_23_0/2.1483.008.6_1.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/2.1483.008.6_1.prt
+REC: MSG * 9_FN555_23_0/2.4811.156.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/2.4811.156.0_0.prt
+REC: MSG * 9_FN555_23_0/2.4851.150.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_23_0/2.4851.150.0_0.prt
+REC: MSG * 9_FN555_43_0/9.fn555.43.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/9.fn555.43.0_0.prt
+REC: MSG * 9_FN555_43_0/0.016.8813.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/0.016.8813.0_0.prt
+REC: MSG * 9_FN555_43_0/0.016.8816.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/0.016.8816.0_0.prt
+REC: MSG * 9_FN555_43_0/0.019.0520.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/0.019.0520.0_0.prt
+REC: MSG * 9_FN555_43_0/0.024.3910.0_1.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/0.024.3910.0_1.prt
+REC: MSG * 9_FN555_43_0/0.024.3912.3_1.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/0.024.3912.3_1.prt
+REC: MSG * 9_FN555_43_0/0.024.3912.4_1.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/0.024.3912.4_1.prt
+REC: MSG * 9_FN555_43_0/2.0099.005.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/2.0099.005.6_0.prt
+REC: MSG * 9_FN555_43_0/2.1019.059.6_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/2.1019.059.6_0.prt
+REC: MSG * 9_FN555_43_0/2.1483.008.6_1.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/2.1483.008.6_1.prt
+REC: MSG * 9_FN555_43_0/2.4811.189.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/2.4811.189.0_0.prt
+REC: MSG * 9_FN555_43_0/2.4851.130.0_0.prt - {prt 1}
+REC: MSG *     keeping 9_FN555_43_0/2.4851.130.0_0.prt
+REC: MSG files list: 
+REC: MSG   9_Y6955_50_0/9.y6955.50.0_0.prt 9_Y6955_50_0/0.016.8813.0_0.prt 9_Y6955_50_0/0.016.8816.0_0.prt 9_Y6955_50_0/0.018.9967.0_0.prt 9_Y6955_50_0/0.018.9967.3_0.prt 9_Y6955_50_0/0.018.9967.4_0.prt
+REC: MSG   9_Y6955_50_0/0.019.1031.0_0.prt 9_Y6955_50_0/2.0099.005.6_0.prt 9_Y6955_50_0/2.1019.175.6_0.prt 9_Y6955_50_0/2.1499.019.6_0.prt 9_Y6955_50_0/2.4811.071.0_0.prt 9_Y6955_50_0/2.4851.170.0_0.prt
+REC: MSG   9_Y7155_50_0/9.y7155.50.0_0.prt 9_Y7155_50_0/0.016.8813.0_0.prt 9_Y7155_50_0/0.016.8816.0_0.prt 9_Y7155_50_0/0.018.9967.0_1.prt 9_Y7155_50_0/0.018.9967.3_1.prt 9_Y7155_50_0/0.018.9967.4_10_0.prt
+REC: MSG   9_Y7155_50_0/0.018.9967.4h_0.prt 9_Y7155_50_0/0.019.1031.0_0.prt 9_Y7155_50_0/2.0099.005.6_0.prt 9_Y7155_50_0/2.1019.175.6_0.prt 9_Y7155_50_0/2.1499.019.6_0.prt 9_Y7155_50_0/2.4811.071.0_0.prt
+REC: MSG   9_Y7155_50_0/2.4851.170.0_0.prt 9_Y8155_51_0/9.y8155.51.0_0.prt 9_Y8155_51_0/0.018.9969.3_0.prt 9_Y8155_51_0/0.019.1031.0_0.prt 9_Y8155_51_0/0.019.4000.0_0.prt 9_Y8155_51_0/2.4811.058.0_0.prt
+REC: MSG   9_Y8155_51_0/2.4851.118.0_0.prt 9_Y8355_51_0/9.y8355.51.0_0.prt 9_Y8355_51_0/0.018.9969.3_20_0.prt 9_Y8355_51_0/0.018.9969.3h_0.prt 9_Y8355_51_0/0.019.1031.0_0.prt 9_Y8355_51_0/0.019.4000.0_10_0.prt
+REC: MSG   9_Y8355_51_0/2.4811.058.0_0.prt 9_Y8355_51_0/2.4851.118.0_0.prt 9_Y6955_51_0/9.y6955.51.0_0.prt 9_Y6955_51_0/0.016.8813.0_0.prt 9_Y6955_51_0/0.016.8816.0_0.prt 9_Y6955_51_0/0.018.9967.0_0.prt
+REC: MSG   9_Y6955_51_0/0.018.9967.3_0.prt 9_Y6955_51_0/0.018.9967.4_0.prt 9_Y6955_51_0/0.019.1031.0_0.prt 9_Y6955_51_0/2.0099.005.6_0.prt 9_Y6955_51_0/2.1019.175.6_0.prt 9_Y6955_51_0/2.1499.019.6_0.prt
+REC: MSG   9_Y6955_51_0/2.4811.058.0_0.prt 9_Y6955_51_0/2.4851.170.0_0.prt 9_FN555_23_0/9.fn555.23.0_0.prt 9_FN555_23_0/0.016.5360.0_0.prt 9_FN555_23_0/0.016.8812.0_0.prt 9_FN555_23_0/0.016.8816.0_0.prt
+REC: MSG   9_FN555_23_0/0.019.0520.0_0.prt 9_FN555_23_0/0.033.4778.3_0.prt 9_FN555_23_0/0.033.4778.4_0.prt 9_FN555_23_0/2.0099.005.6_0.prt 9_FN555_23_0/2.1019.059.6_0.prt 9_FN555_23_0/2.1483.008.6_1.prt
+REC: MSG   9_FN555_23_0/2.4811.156.0_0.prt 9_FN555_23_0/2.4851.150.0_0.prt 9_FN555_43_0/9.fn555.43.0_0.prt 9_FN555_43_0/0.016.8813.0_0.prt 9_FN555_43_0/0.016.8816.0_0.prt 9_FN555_43_0/0.019.0520.0_0.prt
+REC: MSG   9_FN555_43_0/0.024.3910.0_1.prt 9_FN555_43_0/0.024.3912.3_1.prt 9_FN555_43_0/0.024.3912.4_1.prt 9_FN555_43_0/2.0099.005.6_0.prt 9_FN555_43_0/2.1019.059.6_0.prt 9_FN555_43_0/2.1483.008.6_1.prt
+REC: MSG   9_FN555_43_0/2.4811.189.0_0.prt 9_FN555_43_0/2.4851.130.0_0.prt
+REC: MSG zipping files ....
+REC: MSG copying files ....
+REC: MSG File exported to: /data/medrepository
+REC: MSG Starting export STEP 9 - Cleaning
+REC: MSG removing directory /data/medspool_115/daemon_0
++++ Export completed
+Exiting with signal success
+Sending acknoledgment email
+

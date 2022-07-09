@@ -1,0 +1,12 @@
+ Options +FollowSymLinks
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+    #RewriteRUle . /home [L]
+    RedirectMatch 301 ^/$ /home
+
+
+    #DirectoryIndex /Home
+    #Redirect /dental-project/ /dental-project/Home

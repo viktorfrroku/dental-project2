@@ -1,0 +1,584 @@
+@font-face {
+    font-family: ArchivoBlack-Regular;
+    src: url("/dental-project/fonts/ArchivoBlack-Regular.ttf");
+}
+
+@font-face {
+    font-family: MODERNA_;
+    src: url("/dental-project/fonts/MODERNA_.TTF");
+}
+@font-face {
+    font-family:Sofia Pro Bold Az;
+    src: url("/dental-project/Sofia Pro Bold Az.otf");
+}
+
+@font-face {
+    font-family:"Optien";
+    src: url("/dental-project/Optien.ttf");
+}
+#phonenr {
+
+    color:white;
+    background-color: #C9145A;
+    padding: 0.7em;
+    border-radius: 2em!important;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+
+#website-name {
+
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family:Optien;
+    font-size:40pt;
+    padding:0;
+    color: #000;
+  
+    
+}
+
+   
+
+.section-01{
+
+    display: block;
+     background:linear-gradient(to bottom, rgba(255, 255, 0,0), rgba(255, 255, 255, 0.7)), url("../../img/pexels-tima-miroshnichenko-5355917.jpg") center center fixed;
+     /* background:linear-gradient(to bottom, rgba(255, 255, 0,0), rgba(255, 255, 255, 0.7)), url("../../img/front-page.jpg")  no-repeat fixed; */
+    /* background: url("../../img/pexels-tima-miroshnichenko-5355917.jpg") center center fixed; */
+    /* background: url("../../img/pexels-tima-miroshnichenko-5355917.jpg") center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top:0;
+    opacity: 100%;
+    height: 100%;
+    position: relative;
+}
+body::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: #0000!important;
+    position: absolute;
+}
+body > * {
+    z-index: 10;
+}
+.navbar-scroll {
+    position: fixed!important;
+    color: black !important;
+    background-color: #C9145A!important;
+    padding: 0.5m;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:30;
+    transition: ease-in-out 0.6s;
+}
+
+
+footer {
+    display: block;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    color: black;
+    font-weight: bold;
+    transition: all ease-in-out 0.5s;
+    
+}
+.activing {
+    font-size:15pt;
+    font-weight: bold;
+    color: #C9145A!important;
+ }
+
+
+.container{
+ position: relative;
+}
+   .form{
+   /* position: relative;
+    left: auto;
+    right:auto;*/
+    padding:3em;
+    background-color: white;
+    margin: 2em;
+   /* transform: translate(-50%,-50%); */
+   }
+
+   .form input {
+
+    /* padding: 1em;
+    margin: 0.1em; */
+    padding:0;
+    border:0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: 5px solid black;
+    /* border-bottom:2px solid #C9145A; */
+    border-radius:none;
+    margin-left: 0.4em!important;
+    display: inline-block;
+    /* width: 90%; */
+   }
+  
+   .form textarea {
+    /* padding: 1em;
+    margin: 0.2em; */
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border:0;
+    border-bottom-style: 5px solid black;
+    /* border-bottom:2px solid #C9145A; */
+    border-radius:none;
+    display: inline-block;
+   }
+
+   .form button {
+    padding: 1em;/* 
+    margin: 0.2em; */
+    width:100%;
+    border:2px solid #C9145A;
+    font-weight: bold;
+    font-style:italic;
+    border-radius:none;
+    background-color: white;
+    margin-top:0.5em;
+   }
+
+
+
+  .flex-container
+  {
+      display: flex;
+      position:relative;
+      bottom:10em;
+      top: 4em;
+      width: 100%;
+      height:100%;
+     /* background-color: gray;*/
+       flex-wrap: wrap;
+  }
+  .flex-container .fitem 
+  {
+      /* background-color: red; */
+      padding: 1em;
+      width: 100%;
+      max-height: 600px;
+      min-height:380px
+      /* width:380px; 
+      height: 340px; */
+  }
+  .flex-container div
+  {
+      flex: 50%;
+      /* width:380px; 
+      height: 340px; */
+  }
+ 
+  .flex-container #hmp-first{
+    background:white
+
+  }
+  .flex-container #hmp-second{
+    background: url(../../img/caroline-lm-ux18C551ghI-unsplash.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative
+
+  }
+  .flex-container #hmp-third{
+   
+    background: url(../../img/caroline-lm--m-4tYmtLlI-unsplash.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relatives
+    
+
+  }
+  .flex-container #hmp-forth{
+    background: white;
+   
+
+  }
+  .flex-container #hmp-fifth{
+    background: white;
+
+  }
+  .flex-container #hmp-eith{
+    background: url(../../img/caroline-lm--m-4tYmtLlI-unsplash.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative
+
+  }
+
+  .flex-container #hmp-nineth{
+    background: url(../../img/caroline-lm--m-4tYmtLlI-unsplash.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative
+  }
+  .flex-container .fitem:hover {
+   transition: ease-in-out 0.6s;
+   opacity:0.8;
+   }
+
+
+
+/* .flex-container .fitem h2 {
+   
+    text-decoration:none;
+    color:black;
+    font-size: 45px;
+    font-weight: 900;
+} */
+.flex-container .fitem h2 a{
+    font-family: 'Fjalla One', sans-serif;
+    /* font-style: italic;  */
+    text-decoration:none;
+    color:black;
+    font-size: 45px;
+    font-weight: 900;
+
+}
+
+
+
+
+.publicity {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 2em;
+    padding-top:2em ;
+    padding-bottom:2em ;
+    background: #ffff;
+  }
+.publicity .container {
+text-align:center;    
+}
+.publicity .container h1{
+    color: #A67C52;
+    font-weight: bold; 
+    font-size:60px; 
+    padding:0.5em  
+}
+.publicity .container h1::before{
+    content:"___ ";
+    color: #A67C52;
+    font-weight: bold; 
+    font-size:60px;
+      
+}
+.publicity .container h1::after{
+    content:"___ ";
+    color: #A67C52;
+    font-weight: bold; 
+    font-size:60px;
+      
+}
+.ofertat h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80px;
+
+}
+.ofertat h1 a{
+    text-decoration:none;
+    color: #4b4a4a;
+}
+.social-media
+{
+    padding: 0.5em;
+}
+
+.landing-page-oferta {
+    display: block;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.landing-page-oferta .landing-page-explenation {
+    padding:2em;
+    margin:1em;
+    position:relative;
+    display: block;
+    /* min-width: 100%;
+    min-height: 200px;
+    //border:40px solid #5ab4b0; */
+    background-color: white;
+    border-radius: 0!important;
+    box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+    overflow: show;
+}
+.navbar .landing-page-oferta .card .landing-page-explenation h2{
+  display: block;
+  /* position: absolute; */
+  font-weight: bold;
+  font-size:50px;
+  /* color: #4b4a4a; */
+  color:#C9145A;
+  background: white!important;
+  /* left:-0.8em; */
+}
+.landing-page-oferta .landing-page-explenation p{
+    display: block;
+    /* position: absolute; */
+    /* left:-2em;
+    bottom: -0.2em;*/
+    color: #4b4a4a; 
+  }
+  .navbar {
+    box-shadow: 0 0 50px #ccc;
+    margin-bottom:0.4em;
+    display: block;
+    position: fixed;
+    
+  }
+  
+
+
+.about-us h1 {
+    font-size:80px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-bottom:-2em;
+    color:black;
+    display: inline;
+    border-bottom: #C9145A solid 4px;
+
+}
+.about-us h3 {
+    font-size:20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    display: inline;
+    border-bottom: #C9145A solid 2px;
+}
+.about-us {
+    color: dimgrey;
+}
+
+.about-us-page {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    max-height: 1200px;
+    background:linear-gradient(to bottom, rgba(255, 255, 0,0), rgba(255, 255, 255, 1)), url(../../img/daniel-frank-wKbWAMlHgNo-unsplash.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+.about-us-page h1 {
+    font-size:60px;
+    font-family: Arial;
+    font-weight: 900;
+    color:#000;
+    top:200px;
+    margin: 0 auto;
+    position: absolute;
+    padding: 0.1em;
+   -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+.contac-us-page {
+
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    /* background:linear-gradient(to bottom, rgba(255, 255, 0,0), rgba(255, 255, 255, 0.7)), url(../../img/daniel-frank-wKbWAMlHgNo-unsplash.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+
+}
+
+
+.dental-turism-page {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    max-height: 2000px;
+    background:linear-gradient(to bottom, rgba(255, 255, 0,0), rgba(255, 255, 255, 0.7)), url(../../img/henor-teneqja-TTMKKc4JYWE-unsplash.jpg)  no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+.dental-turism-page h1 {
+    font-size:40px;
+    font-family: Arial;
+    font-weight: bold;
+    color:white;
+    top:200px;
+    margin: 0 auto;
+    position: absolute;
+    padding: 0.21em;
+    background: #C9145A;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+ form h1 
+{
+    font-weight: bold;
+    font-family: optien;
+    color: #C9145A;
+    font-size:65px
+}
+/*
+form input
+{
+   display: inline;
+   width: 90%;
+} */
+
+.input-group {
+    padding: 1em;   
+    border-bottom: 2px solid #C9145A;
+
+}
+.cities-page {
+    width: 100%;
+    height:100%;
+}
+.cities-page .cities-page-in{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all ease-in 0.6s;
+}
+.cities-page .cities-page-in .cities-page-in-item{
+    transition: all ease-in 0.6s;
+    width: 400px;
+    height: 400px;
+    background:url("../../img/pexels-czapp-árpád-10409651.jpg") center center;
+    /* background: url("../../img/pexels-tima-miroshnichenko-5355917.jpg") center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top:0;
+    transition: all ease-in 0.6s;
+}
+
+.cities-page .cities-page-in #cities-page-in-item-tirane{
+    width: 400px;
+    height: 400px;
+    background:url("../../img/pexels-czapp-árpád-10409651.jpg") center center;
+    /* background: url("../../img/pexels-tima-miroshnichenko-5355917.jpg") center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top:0;
+}
+.cities-page .cities-page-in .cities-page-in-item:hover{
+
+    background:url("../../img/pexels-czapp-árpád-10409651.jpg") center center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(177,39,97,0.6418942577030813) 100%, rgba(0,212,255,1) 100%);
+    /* background: url("../../img/pexels-tima-miroshnichenko-5355917.jpg") center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 420px;
+    height:420px;
+    position:absolute;
+    z-index:1.99;
+    top:0;
+}
+.carousel .carousel-inner {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    padding:0;
+  }
+  .carousel  {
+    height: 80vh;
+    width: 80%;
+    margin:auto;
+    opacity: 1;
+  }
+
+  
+  /* .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  } */
+
+  .carousel::after {
+    background-image: linear-gradient(to top, rgba(2,0,36,0.1) 0%, rgba(177,39,97,0.3) 100%, rgba(0,212,255,1) 100%);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    opacity: 0.6;
+  }
+  .carousel-caption {
+      top: 50%!important;
+      z-index:20!important;
+    display: block;
+    opacity:1;
+    position: absolute;
+  }
+  .carousel .carousel-inner .carousel-item img {
+      opacity:1;
+      filter: grayscale();
+  }
+ 
+ .landing-page-explenationturism h2{
+    font-size: 60px;
+    padding: 0.2em;
+    margin: 0.5em;
+    background: #C9145A;
+    color: white;
+    display: inline-block;
+  }
+.card-header {
+    background-color: white!important;
+}
